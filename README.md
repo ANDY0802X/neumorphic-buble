@@ -1,4 +1,4 @@
-# 🫧 Liquid Neumorphism Bubble
+# 🫧 Liquid Neumorphism Bubble UI ELEMENT
 
 A modern, interactive liquid neumorphic bubble animation built with **HTML5 Canvas** and **Vanilla JavaScript**. It features fluid physics simulation, interactive mouse cursor forces, and smooth neumorphic light-and-shadow rendering.
 
