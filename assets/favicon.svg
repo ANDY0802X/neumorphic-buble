@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <radialGradient id="bubbleGrad" cx="35%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#3a3a3a"/>
+      <stop offset="60%" stop-color="#1c1c1c"/>
+      <stop offset="100%" stop-color="#121212"/>
+    </radialGradient>
+    <filter id="neumorphicShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="3" dy="4" stdDeviation="3" flood-color="#0e0e0e" flood-opacity="0.8"/>
+      <feDropShadow dx="-3" dy="-3" stdDeviation="3" flood-color="#333333" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#1c1c1c"/>
+  <circle cx="32" cy="32" r="20" fill="url(#bubbleGrad)" filter="url(#neumorphicShadow)"/>
+  <circle cx="26" cy="24" r="5" fill="#ffffff" opacity="0.25"/>
+</svg>
